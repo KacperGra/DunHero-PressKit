@@ -29,14 +29,13 @@ header {
 .logo {
     max-width: 300px;
     margin-bottom: 10px;
-    filter: drop-shadow(0 4px 6px rgba(255, 200, 37, 0.7));
 }
 
 h1 {
     font-size: 2.8em;
     margin: 0;
     color: #ffc825; /* Accent color for title */
-    text-shadow: 0 3px 6px rgba(255, 200, 37, 0.5);
+    text-shadow: 0 3px 6px rgba(46, 45, 43, 0.5);
 }
 
 /* Section Styling */
@@ -53,7 +52,7 @@ h2 {
     padding-bottom: 5px;
     margin-bottom: 10px;
     color: #ffc825;
-    text-shadow: 0 2px 4px rgba(255, 200, 37, 0.4);
+    text-shadow: 0 3px 6px rgba(46, 45, 43, 0.5);
 }
 
 h3 {
