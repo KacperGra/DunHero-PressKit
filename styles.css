@@ -1,11 +1,11 @@
 /* General Reset and Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 1.2;
     margin: 0;
     padding: 0;
     background-color: #121212; /* Dark background */
-    color: #f0f0f0; /* Light text */
+    color:  #ffffff; /* Light text */
 }
 
 /* Container Styling */
@@ -13,17 +13,19 @@ body {
     width: 90%;
     max-width: 800px;
     margin: auto;
-    padding: 20px;
-    background: linear-gradient(145deg, #1b1b1b, #242424); /* Subtle gradient */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+    background: linear-gradient(145deg, #272727, #272727); /* Subtle gradient */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
     border-radius: 12px;
-    border: 1px solid #333;
+    border: 6px solid  #3d3d3d;
 }
 
 /* Header Section */
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .logo {
@@ -40,7 +42,7 @@ h1 {
 
 /* Section Styling */
 section {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 8px;
     background: #1e1e1e;
@@ -102,11 +104,11 @@ a:hover {
 @keyframes gif-highlight {
     0%, 100% {
         border-color: #ffa726;
-        box-shadow: 0 0 10px rgba(255, 167, 38, 0.8);
+        box-shadow: 0 0 5px rgba(255, 167, 38, 0.8);
     }
     50% {
         border-color: #ffcc80;
-        box-shadow: 0 0 20px rgba(255, 204, 128, 0.8);
+        box-shadow: 0 0 12px rgba(255, 204, 128, 0.8);
     }
 }
 
