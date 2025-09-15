@@ -1,6 +1,11 @@
 /* General Reset and Body Styling */
+@font-face {
+    font-family: pixelFont;
+    src: url(HopeGold.ttf);
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter';
     line-height: 1.2;
     margin: 0;
     padding: 0;
